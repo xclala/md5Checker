@@ -1,4 +1,3 @@
-from os import system
 try:
     from hashlib import md5
     from tkinter import messagebox, simpledialog
@@ -18,7 +17,5 @@ try:
             messagebox.showinfo(message="文件未被篡改！", title="文件未被篡改！")
         else:
             messagebox.showinfo(message="文件可能已经被篡改！！！", title="文件可能已经被篡改！！！")
-        system("pause")
 except Exception as e:
     print(e)
-    system("pause")
