@@ -1,2 +1,0 @@
-pywin32                           302
-pywin32-ctypes                    0.2.0
